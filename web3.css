@@ -1,0 +1,35 @@
+h1{
+    color: blue;
+    text-align: center;
+    font-size: 100px;
+    background-color: rgb(255, 255, 255);
+}
+
+body {
+    background-image: url('https://www.shutterstock.com/image-vector/isolated-cute-sea-fish-set-600nw-1917218264.jpg'); /* Replace 'your-image-url.jpg' with the URL of your image */
+    background-size: contain; /* This property ensures that the background image covers the entire element */
+    background-repeat: repeat;
+    animation: moveBackground 20s linear infinite; /* Change the duration and timing function as needed */
+  }
+
+  @keyframes moveBackground {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 100% 0;
+    }
+  }
+
+  .content {
+    color: white; /* Sets the text color to white for better visibility */
+    text-align: center; /* Centers the text horizontally */
+    padding: 20px; /* Adds some padding around the text for spacing */
+  }
+
+
+h2{
+    text-align: center;
+    margin-top: 30px;
+  
+}

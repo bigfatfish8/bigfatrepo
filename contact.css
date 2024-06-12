@@ -1,0 +1,92 @@
+ /* CSS styles */
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #d8533cbc; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 100px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    box-sizing: border-box;
+}
+
+.form-group textarea {
+    height: 150px;
+}
+
+.btn-send {
+    display: inline-block;
+    background-color: #d8533cbc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+}
+
+.btn-send:hover {
+    background-color: #90ad86;
+}
+
+li {
+    float: left;
+    margin-right: 20px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+/* Style for the menu bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #becaa5;
+    overflow: hidden;
+    
+}
+
+li {
+    display: inline-block; /* Change from float to inline-block */
+    margin-right:127.5px; /* Add spacing between menu items */
+}
+
+ul li a:hover {
+    color: #b93838;
+    background-color: #ffffff;
+}

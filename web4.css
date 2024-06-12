@@ -1,0 +1,63 @@
+background-image {
+     background-image: url('https://www.creativefabrica.com/wp-content/uploads/2023/04/04/Y2k-Graphics-66198580-5-580x387.png'); /* Replace 'background-image.jpg' with the path to your image */
+   
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://www.creativefabrica.com/wp-content/uploads/2023/04/04/Y2k-Graphics-66198580-5-580x387.png'); /* Replace 'background-image.jpg' with the path to your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    animation: spin 11s linear infinite; /
+}
+h1 {
+    
+    padding-top: 14em;
+    padding-left: 22em;
+    color: rgb(255, 0, 0);
+}
+.dropdown {
+    position: relative;
+    display: inline-table;
+    padding-left: 5em;
+    padding-top: 0em;
+    color: aqua;
+
+  }
+  
+  .dropdown-content {
+    display: none;
+    background-color: #011203;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: rgb(255, 0, 0);
+    padding: 16px 16px;
+    text-decoration: none;
+    display: flow-root;
+  }
+
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content a:hover {
+    background-color: #13b202; /* Change the background color on hover */
+    color: #333; /* Change the text color on hover */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+  }
+  
+  
+  
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,152 @@
+header {
+    background-color: #d8533cbc;
+    color: #f1f3e5f7;
+    padding: 50px;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 5px;
+    font-family:Arial, sans-serif
+    
+
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    margin-right: 10px;
+    width: 200px;
+    margin-top: 20px;
+   
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #becaa5;
+    color: #fff;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+
+  h1{
+    font-size: 20px;
+    font-family: Arial,sans-serif
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #919a7e;
+  }
+
+  .custom-button {
+    padding: 10px 20px;
+    background-color: #d8533cbc;
+    color: #fff;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+  }
+  
+  .custom-button:hover {
+    background-color: #e03e3e;
+  }
+
+  h2{
+    margin-top: 50px;
+    font-family: Arial, sans-serif
+  }
+  img {
+    width: 300px; /* Change the width as needed */
+    height: auto; /* This ensures the aspect ratio is maintained */
+  }
+  
+  .info {
+    padding: 1em;
+    display: flex;
+ }
+ 
+ .info, h2 {
+    padding-right: 20px;
+ }
+ 
+ .image-and-text-container {
+    display: flex; /* Use flexbox for alignment */
+    align-items: top; /* Align items vertically in the center */
+  }
+  
+  .custom-image {
+    width: 300px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .text {
+    margin-left: 30px; /* Adjust the margin as needed to create space between the image and text */
+    text-align: justify;
+    margin-right: 15px;
+  }
+  
+i {
+    color: #ec0505;
+    
+}
+
+i:hover {
+    color: rgb(23, 22, 21);
+    cursor: pointer;
+}
+
+footer{
+   color: #d8533cbc ;
+   margin-bottom: 15px;
+   font-family: Arial, sans-serif
+}
+
+.left {
+    float: left;
+}
+
+h3{
+  font-family: Arial, sans-serif;
+}
+
+li {
+  float: left;
+  margin-right: 20px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+/* Style for the menu bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #becaa5;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  
+}
+
+li {
+  display: inline-block; /* Change from float to inline-block */
+  margin-right:127.5px; /* Add spacing between menu items */
+}
+
+ul li a:hover {
+  color: #b93838;
+  background-color: #ffffff;
+}
