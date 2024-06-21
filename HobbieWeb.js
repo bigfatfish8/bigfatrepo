@@ -1,38 +1,28 @@
-// script.js
-function toggleMenu() {
-    var menu = document.getElementById('dropdown-menu');
-    if (menu.style.display === 'block') {
-        menu.style.display = 'none';
-    } else {
-        menu.style.display = 'block';
-    }
-}
+// display a welcome message to the user which pops up after a few seconds
+// this is the main component of the website
 
-document.addEventListener("DOMContentLoaded", function() {
-    var welcomeMessage = "find your creativity";
-    var element = document.getElementById('welcome-message');
-    var index = 0;
-    var typingSpeed = 75; 
+// get the "welcome-message" div
+var welcomeMessage = document.getElementById("welcome-message");
+// hide the welcome message initially
+welcomeMessage.style.display = "none";
+// display the welcome message after 3 seconds
+setTimeout(function() {
+    console.log("3")
+    welcomeMessage.style.display = "block";
+    console.log("4")
+}, 3000);
 
-    function typeFirstLine() {
-        if (index < welcomeMessage.length) {
-            element.innerHTML += welcomeMessage.charAt(index);
-            index++;
-            setTimeout(typeFirstLine, typingSpeed);
-        } else {
-            index = 0; 
-            element.innerHTML += "<br>";
-            typeSecondLine();
-        }
-    }
+console.log("1");
+// hide the welcome message after 6 seconds
+setTimeout(function() {
+    console.log("5");
+    welcomeMessage.style.display = "none";
+    console.log("6");
+}, 10000);
 
-    function typeSecondLine() {
-        if (index < secondLineMessage.length) {
-            element.innerHTML += secondLineMessage.charAt(index);
-            index++;
-            setTimeout(typeSecondLine, typingSpeed);
-        }
-    }
+console.log("2");
 
-    typeFirstLine();
-});
+
+
+
+
